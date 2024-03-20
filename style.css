@@ -1,0 +1,155 @@
+:root {
+    /* tradidtional colors */
+    --list-pannel-traditional: rgb(244, 244, 244);
+    --preference-pannel-traditional: rgb(218, 218, 218);
+    --text-black: rgb(31, 31, 31);
+    --list-item-bg-traditional: rgb(242, 242, 242);
+    
+    /* dark modal colors */
+    --list-pannel-dark: rgb(45, 45, 45);
+    --preference-pannel-dark: rgb(38, 38, 38);
+    --text-white: rgb(240, 240, 240);
+    --list-item-bg-black: rgb(31, 31, 31);
+
+    /* sunset modal colors */
+    --list-pannel-sunset: #EFBC9B;
+    --preference-pannel-sunset: #FBF3D5;
+    --text-sunset: #3b6dc2;
+}
+
+body {
+    height: 100vh !important;
+}
+
+main {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+}
+
+.preference-pannel {
+    box-shadow: -1px 1px 1px rgb(215, 215, 215);
+    height: 100%;
+    transition: background-color .4s, color .4s, background .4s;
+}
+
+.list-pannel {
+    /* height: 100%; */
+    transition: background-color .4s, color .4s, background .4s;
+}
+
+.list-container {
+    transition: background-color .4s, color .4s, background .4s;
+}
+
+/* traditional modal classes */
+.list-pannel-traditional-modal {
+    background: var(--list-pannel-traditional);
+    color: var(--text-black);
+}
+
+.preference-pannel-traditional-modal {
+    background: var(--preference-pannel-traditional);
+    color: var(--text-black);
+}
+
+.list-container-traditional-modal {
+    background-color: var(--list-pannel-traditional);
+}
+
+.list-item-traditional-modal {
+    background-color: var(--list-item-bg-traditional);
+    color: var(--text-black);
+}
+
+/* dark modal classes */
+.list-pannel-dark-modal {
+    background: var(--list-pannel-dark);
+    color: var(--text-white);
+}
+
+.preference-pannel-dark-modal {
+    background: var(--preference-pannel-dark);
+    color: var(--text-white);
+}
+
+.list-container-dark-modal {
+    background-color: var(--list-pannel-dark);
+}
+
+.list-item-dark-modal {
+    background-color: var(--list-item-bg-black);
+    color: var(--text-white);
+}
+
+/* sunset modal classes */
+.list-pannel-sunset-modal {
+    background: linear-gradient(90deg, #EFBC9B, #FBF3D5);
+    color: var(--text-sunset);
+}
+
+.preference-pannel-sunset-modal {
+    /* background: linear-gradient(90deg, #faff7c, #a83c45); */
+    background: var(--preference-pannel-sunset);
+    color: var(--text-sunset);
+}
+
+.list-container-sunset-modal {
+    background-color: #D6DAC8;
+}
+
+.list-item-sunset-modal {
+    background-color: #FBF3D5;
+}
+
+
+/* list */
+ul {
+    padding-left: 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+ul li {
+    list-style: none;
+    /* border: 1px solid black; */
+    transition: background-color .4s, color .4s;
+}
+
+.button-style {
+    box-shadow: 0 1px 1px rgb(67, 67, 67);
+    border-radius: 2px;
+    padding: 8px 10px;
+    margin-bottom: 0.5rem;
+}
+
+.minimalism {
+    border-bottom: 1px dotted black;
+    padding: 8px 10px;
+    margin-bottom: 0.5rem;
+}
+
+.expanded {
+    box-shadow: 0 1px 1px rgb(67, 67, 67);
+    border-radius: 5px;
+    padding: 14px 10px;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+/* select box */
+label {
+    display: block;
+}
+
+select {
+    width: 100%;
+    padding: 4px 8px;
+    border-radius: 2px;
+}
+
+@media only screen and (min-wid:768px) {
+    .list-pannel {
+        height: 100%;
+    }
+}
