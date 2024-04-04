@@ -1,7 +1,7 @@
 # Brief introduction
 
 - A web page which looks simple but its principles are consistent with many functions that are very useful in production environments.
-> Please click: [Personalized theme selection](https://qingjieshen.github.io/locolStorage-theme-switch/)
+> Please click: [Personalized theme selection](https://qingjieshen.github.io/locolStorage-theme-switch/) to check the demo.
 
 # How it works?
 - You can get different interface of list styles and color themes by selecting Theme and List Style in the Preference pannel on the right.
